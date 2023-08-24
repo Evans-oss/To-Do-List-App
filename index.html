@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&family=Montserrat&family=Poppins:ital,wght@1,300&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do List | APP</title>
+</head>
+<body>
+    <div class="container">
+        <div class="to-do-app">
+            <h2>To Do List  <i class="fa-solid fa-list-check"></i></h2>
+            <div class="row">
+                <input class="text-box" type="text" placeholder="Add task here..." id="input-box">
+                <button onclick="addTask()">ADD</button>
+            </div>
+            <ul id="list-container">
+                <style> .completed {
+                    text-decoration: line-through;
+                }
+                    </style>
+                <!-- <li> <input type="checkbox" onclick="checkedOff()"> Task 1</li>
+                <li> <input type="checkbox" onclick="checkedOff()"> Task 2</li>
+                <li><input type="checkbox" onclick="checkedOff()"> Task 3</li> -->
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
